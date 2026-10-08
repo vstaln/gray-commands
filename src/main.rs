@@ -1,6 +1,6 @@
 //! gray-commands — prompt-template slash commands.
 //!
-//! Port of pi's `commands` extension family: markdown files under
+//! Markdown files under
 //! `~/.gray/commands/*.md` become slash commands. `/cmd <name> [args…]`
 //! reads the file, substitutes `$ARGUMENTS` (all args) and `$1`…`$n`
 //! (positional), and replies `{prompt}` so the harness runs the expanded
