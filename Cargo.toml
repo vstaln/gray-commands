@@ -1,0 +1,17 @@
+[package]
+name = "gray-commands"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "MIT"
+description = "Prompt-template slash commands from ~/.gray/commands/*.md with $ARGUMENTS/$1 substitution."
+
+[[bin]]
+name = "gray-commands"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+strip = true
