@@ -28,7 +28,7 @@ fn manifest() -> Value {
         "version": env!("CARGO_PKG_VERSION"),
         "protocol": "1.1",
         "tools": [],
-        "description": "prompt-template",
+        "description": "prompt-template slash commands from markdown",
         "commands": ["/cmd"],
         "capabilities": ["host.ask"],
     })
