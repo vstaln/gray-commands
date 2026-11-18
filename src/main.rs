@@ -30,6 +30,7 @@ fn manifest() -> Value {
         "tools": [],
         "description": "prompt-template slash commands from markdown",
         "commands": ["/cmd"],
+        "command_descriptions": {"/cmd": "run a saved prompt template"},
         "capabilities": ["host.ask"],
     })
 }
